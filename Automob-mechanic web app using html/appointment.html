@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+</head>
+
+<body>
+    <header>
+        <a href="home.html">
+            <h1>AutoMob-Mechanic</h1>
+        </a>
+        <p>
+            <a href="home.html">Home</a> |
+            <a href="services.html">Services</a> |
+            <a href="booking.html">Booking</a> |
+            <a href="mailto:contact@automob.co.in"> contact@automob.co.in</a> |
+            999 999 9999
+        </p>
+    </header>
+    <hr>
+    <main>
+        <h2>Schedule an Appointment</h2>
+        <form action="booking-success.html" method="get" autocomplete="off">
+            <label for="state">State:</label>
+            <input list="states" id="state" name="state" required>
+            <datalist id="states">
+                <option value="Assam">
+                <option value="Bihar">
+                <option value="Gujarat">
+                <option value="Goa">
+                <option value="Maharashtra">
+                <option value="Karnataka">
+                <option value="Punjab">
+            </datalist>
+            <br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            <br><br>
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <label>
+                <input type="checkbox" name="notification" required>
+                Send Notification
+            </label>
+            <br><br>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+            <br><br>
+            <button type="submit">Book</a></button>
+        </form>
+    </main>
+    <br><br><br><br>
+    <hr>
+
+    <footer>
+        <p>Copyright &copy; AutoMob-Mechanic.All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
