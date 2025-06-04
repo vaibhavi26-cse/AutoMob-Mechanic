@@ -2,7 +2,7 @@
 
 This is a multi-page static website built using **pure HTML5**, as part of the Infosys Springboard HTML5 course. It simulates a basic service booking platform for a car repair and maintenance company named **AutoMob-Mechanic**.
 
-## 🚗 Project Overview
+## Project Overview
 
 AutoMob-Mechanic is a simple web application that allows users to:
 
@@ -10,7 +10,7 @@ AutoMob-Mechanic is a simple web application that allows users to:
 * Book appointments for vehicle maintenance
 * Navigate between various pages like Home, Services, Booking, and more
 
-## 📁 Pages Included
+## Pages Included
 
 * `home.html` – Landing page with About Us section
 * `services.html` – Overview of different car repair services
@@ -22,7 +22,7 @@ AutoMob-Mechanic is a simple web application that allows users to:
 * `preventive-maintenance-service.html` – Info about preventive maintenance
 * `images/` – Folder containing all static image resources
 
-## 🎯 Features
+##  Features
 
 * HTML5 semantic tags (`<header>`, `<main>`, `<section>`)
 * Internal navigation between pages
@@ -30,7 +30,7 @@ AutoMob-Mechanic is a simple web application that allows users to:
 * Contact information via email and phone link
 * Embedded images with alt descriptions
 
-## 📚 Skills Applied
+##  Skills Applied
 
 * HTML5 page structure
 * Semantic elements and accessibility
@@ -38,13 +38,13 @@ AutoMob-Mechanic is a simple web application that allows users to:
 * Image embedding and formatting
 * Real-world context representation (service-oriented app)
 
-## 🚀 How to Run
+## How to Run
 
 1. Download or clone this repository.
 2. Open `home.html` in any web browser.
 3. Navigate through the site using internal links.
 
-## 📌 Note
+##  Note
 
 This project is **HTML-only**, and intentionally does not include CSS or JavaScript, as per course requirements.
 
